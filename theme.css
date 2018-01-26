@@ -1,0 +1,54 @@
+
+#myInput {
+  width: 25%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid orange;
+  border-radius: 50px;
+  margin-bottom: 12px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+#button{
+    background-color:orange;
+    border-radius: 50px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+div.scroll{
+     width:600px; 
+    overflow-y:scroll; 
+    position:relative;
+    height: 500px;
+    width:1200px;
+  
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #f1f1f1;
+}
+
