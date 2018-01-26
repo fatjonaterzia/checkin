@@ -32,7 +32,10 @@
   </tr>
 </table>
 </div>
-	  <script>
+<div class="count" style="background-color:orange; color: white;padding: 15px 32px;text-align: center;font-size: 16px;width:1100px">
+  <?php echo $count." guest in the list!"; ?>
+</div>
+<script>
 var index, table = document.getElementById('myTable');
 for(var i=0;i<table.rows.length;i++)
 {
