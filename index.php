@@ -5,11 +5,6 @@
 <link href="theme.css" rel="stylesheet">
 <script src="search.js"></script>
 <script src="jquery-3.3.1.min.js"></script>
-<script>
-  $(document).ready(function(){
-   
-  });
-</script>
 </head>
 <body>
 
