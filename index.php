@@ -15,7 +15,7 @@ var index, table = document.getElementById('myTable');
 for(var i=0;i<table.rows.length;i++)
 {
 
-	table.rows[i].cells[0].onclick = function()
+	table.rows[i].cells[2].onclick = function()
 	{
 		index=this.parentElement.rowIndex;
 		table.deleteRow(index);
