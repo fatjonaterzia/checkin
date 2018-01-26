@@ -10,6 +10,20 @@
    
   });
 </script>
+  <script>
+var index, table = document.getElementById('myTable');
+for(var i=0;i<table.rows.length;i++)
+{
+
+	table.rows[i].cells[0].onclick = function()
+	{
+		index=this.parentElement.rowIndex;
+		table.deleteRow(index);
+		console.log(index);
+	};
+
+}
+</script>
 </head>
 <body>
 
