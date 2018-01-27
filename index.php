@@ -5,6 +5,15 @@
 <link href="theme.css" rel="stylesheet">
 <script src="search.js"></script>
 <script src="jquery-3.3.1.min.js"></script>
+	
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"> </script>
+<script src="https://cdn.datatables.net/1.10.4/js/jquery.dataTables.min.js"></script>
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.4/css/jquery.dataTables.min.css">
+<script type="text/javascript">
+	$(document).ready(function () {
+        $('#myTable').dataTable();
+            });
+    </script>
 </head>
 <body>
 
